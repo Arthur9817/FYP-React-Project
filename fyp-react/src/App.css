@@ -1,0 +1,228 @@
+body,
+html {
+	height: 100%;
+	background-color: rgb(226, 226, 226);
+}
+
+.App {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: normal;
+}
+
+.App-header {
+	/* line-height: 120px; */
+	font-size: 60px;
+	color: rgb(0, 0, 0);
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.input {
+	size: "massive";
+}
+
+.iconText {
+	color: white;
+}
+
+nav {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	min-height: 5vh;
+	background: rgb(255, 255, 255);
+	background-size: 300px 100px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.Box {
+	line-height: 300;
+}
+
+.patient-list {
+	text-align: center;
+	display: flex;
+	flex-flow: wrap;
+	box-shadow: black;
+	/* width: 100%; */
+	float: left;
+}
+
+.searchButton {
+	color: "red";
+}
+
+.patientHeader {
+	font-size: 26px;
+}
+
+.PMheader {
+	text-align: center;
+	background-color: white;
+	padding: 30px;
+	margin: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 5px;
+}
+
+.patient-info {
+	background-color: white;
+	margin: 6%;
+	border-radius: 5px;
+	padding: 25px;
+	margin-bottom: 0px;
+}
+
+.alsfrsr_scores {
+	background-color: white;
+	text-align: center;
+	padding: 25px;
+	/* margin: 2%; */
+	border-radius: 5px;
+	margin-bottom: 1%;
+	/* margin-left: 1px; */
+	margin-top: 2.6%;
+}
+
+.data-quality {
+	background-color: white;
+	text-align: center;
+	padding: 25px;
+	margin: 4%;
+	border-radius: 5px;
+	margin-bottom: 0px;
+	/* width: 30%; */
+	/* float: left; */
+	/* flex-flow: wrap; */
+}
+
+.input-box {
+	background-color: white;
+	text-align: center;
+	padding: 25px;
+	margin: 5%;
+	border-radius: 5px;
+
+	/* min-height: 506px;
+	max-height: 506px; */
+	/* float: left; */
+	/* flex-flow: wrap; */
+}
+
+.selection-area {
+	/* text-align: left; */
+	overflow-y: scroll;
+	overflow-x: unset;
+	height: 226px;
+	max-height: 226px;
+}
+
+.selection-area::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.dimmer::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.button-box {
+	background-color: white;
+	/* width: 28%; */
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 5%;
+	/* margin-left: 3%; */
+	/* margin-top: 0px; */
+	/* float: left;
+	clear: both; */
+}
+
+.reference-box {
+	background-color: white;
+	/* width: 63%; */
+	border-radius: 5px;
+	padding: 26.5px;
+	/* margin-bottom: 5%; */
+	/* margin-left: 3%; */
+	/* margin-top: 2%; */
+	/* float: left; */
+	/* clear: both; */
+}
+
+#clinic-table {
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	background-color: #f2f2f2;
+	width: 100%;
+}
+
+#clinic-table td,
+#clinic-table th {
+	text-align: center;
+	border: 1px solid #bdbdbd;
+	padding: 8px;
+	font-size: 16px;
+}
+
+#clinic-table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#clinic-table tr:hover {
+	background-color: #ddd;
+}
+
+#clinic-table th {
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #4283ca;
+	font-size: 13px;
+	color: white;
+}
+
+.tableLegend {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+	/* min-height: 235px; */
+	/* float: "left"; */
+	/* font-size: large; */
+}
+.tableCell {
+	background-color: "#f2f2f2";
+	font-size: 16px;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #4283ca;
+}
+
+.ui.message {
+	border-radius: 0;
+}
+
+.visible.transition {
+	/* margin-top: auto !important; */
+	/* display: inline-block !important; */
+	position: relative;
+	/* top: 5%; */
+}
+
+.ui.grid > .row {
+	padding-bottom: 0;
+}
